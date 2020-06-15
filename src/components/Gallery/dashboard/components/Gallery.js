@@ -15,7 +15,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
 
   return (
     <div onContextMenu={e => {e.preventDefault();}}>
-      {images && (<div className="row">
+      {images && (<div className="gallery-container">
         {images.map((obj, i) => {
         return (<GalleryItem
           id={obj.id}

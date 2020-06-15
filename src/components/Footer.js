@@ -1,26 +1,22 @@
 import React from 'react'
+import { LINKS } from '../assets/constants'
 
 const Footer = () => (
   <div id="footer">
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" className="icon fa-twitter">
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-github">
+          <a href={LINKS.FACEBOOK} className="icon fa-facebook">
             <span className="label">Github</span>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-dribbble">
+          <a href={LINKS.INSTAGRAM} className="icon fa-instagram">
             <span className="label">Dribbble</span>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-envelope-o">
+          <a href={LINKS.EMAIL} className="icon fa-envelope-o">
             <span className="label">Email</span>
           </a>
         </li>

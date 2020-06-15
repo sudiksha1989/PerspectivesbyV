@@ -874,9 +874,16 @@
 	}
 
 /* Work Item */
+	.gallery-container{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
 
 	.work-item {
 		margin: 0 0 _size(element-margin) 0;
+		width: 48%;
 
 		.image {
 			margin: 0 0 (_size(element-margin) * 0.75) 0;

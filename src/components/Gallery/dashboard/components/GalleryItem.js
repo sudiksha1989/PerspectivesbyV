@@ -8,7 +8,7 @@ const GalleryItem = ({id, source, thumbnail, caption, description, position, tog
         toggleLightbox(position)
     }, [position, toggleLightbox]);
 
-    return (<article key={id} className="6u 12u$(xsmall) work-item">
+    return (<article key={id} className="work-item">
         <a
         className="image fit thumb"
         href={source}
