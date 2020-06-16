@@ -13,9 +13,9 @@ const Header = () => (
           <img src={avatar} alt="" />
         </a>
         <h1>
-          <strong>I am Vaibhav</strong>, specialising
+          <strong>I am Vaibhav</strong>, specialising{' '}
         <br />
-         in photographing architecture and
+         in photographing architecture and{' '}
         <br />
         landscape.
       </h1>
