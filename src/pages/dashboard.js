@@ -1,5 +1,9 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import emailjs from 'emailjs-com';
+import axios from 'axios';
+
+
 import { Link } from "gatsby";
 import Gallery from '../components/Gallery/dashboard';
 import { ROUTES } from '../assets/constants';
@@ -9,8 +13,30 @@ const Dashboard = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = data => {
-    window.location.href = 'mailto:snagvanshi@gmail.com?subject=perspectivesbyv contract&body=' + data.message + "<br>" + data.name + "<br>" + data.email;
-    reset();
+    let templateParams = {
+      from_name: data.email,
+      to_name: 'perspectivesbyv@gmail.com',
+      subject: 'contract',
+      message_html: data.message + "<br><br>" + data.name + "<br>" + data.email
+    },
+      formData = {
+        service_id: 'gmail',
+        template_id: 'template_9jAoO4Sb',
+        user_id: 'user_rOkY6RYxZwNj0wF5FcDYX',
+        template_params: templateParams
+      };
+    axios({
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      data: formData,
+      url: 'https://api.emailjs.com/api/v1.0/email/send',
+    })
+      .then(function (response) {
+        reset();
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   }
 
   return (
