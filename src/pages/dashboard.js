@@ -9,7 +9,7 @@ const Dashboard = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = data => {
-    window.location.href = 'mailto:snagvanshi@gmail.com?subject=perspectivesbyv contract&body=' + data.message + "<br>" + data.name + "<br>" + data.email;
+    window.location.href = 'mailto:perspectivesbyv@gmail.com?subject=perspectivesbyv contract&body=' + data.message + "<br>" + data.name + "<br>" + data.email;
     reset();
   }
 
