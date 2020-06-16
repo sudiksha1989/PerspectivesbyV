@@ -15,7 +15,7 @@ const Header = () => (
         <h1>
           <strong>I am Vaibhav</strong>, specialising{' '}
         <br />
-         in photographing architecture and
+         in photographing architecture and{' '}
         <br />
         landscape.
       </h1>
