@@ -1,20 +1,25 @@
-import image01 from '../../../../assets/images/portfolio/01.jpg';
-import image02 from '../../../../assets/images/portfolio/02.jpg';
-import image03 from '../../../../assets/images/portfolio/03.jpg';
-import image04 from '../../../../assets/images/portfolio/04.jpg';
-import image05 from '../../../../assets/images/portfolio/05.jpg';
-import image06 from '../../../../assets/images/portfolio/06.jpg';
-import image07 from '../../../../assets/images/portfolio/07.jpg';
-import image08 from '../../../../assets/images/portfolio/08.jpg';
-import image09 from '../../../../assets/images/portfolio/09.jpg';
-import image10 from '../../../../assets/images/portfolio/10.jpg';
-import image11 from '../../../../assets/images/portfolio/11.jpg';
-import image12 from '../../../../assets/images/portfolio/12.jpg';
-import image13 from '../../../../assets/images/portfolio/13.jpg';
-import image14 from '../../../../assets/images/portfolio/14.jpg';
-import image15 from '../../../../assets/images/portfolio/15.jpg';
-import image16 from '../../../../assets/images/portfolio/16.jpg';
-
+import image01 from '../../../../assets/images/products/01.jpg';
+import image02 from '../../../../assets/images/products/02.jpg';
+import image03 from '../../../../assets/images/products/03.jpg';
+import image04 from '../../../../assets/images/products/04.jpg';
+import image05 from '../../../../assets/images/products/05.jpg';
+import image06 from '../../../../assets/images/products/06.jpg';
+import image07 from '../../../../assets/images/products/07.jpg';
+import image08 from '../../../../assets/images/products/08.jpg';
+import image09 from '../../../../assets/images/products/09.jpg';
+import image10 from '../../../../assets/images/products/10.jpg';
+import image11 from '../../../../assets/images/products/11.jpg';
+import image12 from '../../../../assets/images/products/12.jpg';
+import image13 from '../../../../assets/images/products/13.jpg';
+import image14 from '../../../../assets/images/products/14.jpg';
+import image15 from '../../../../assets/images/products/15.jpg';
+import image16 from '../../../../assets/images/products/16.jpg';
+import image17 from '../../../../assets/images/products/17.jpg';
+import image18 from '../../../../assets/images/products/18.jpg';
+import image19 from '../../../../assets/images/products/19.jpg';
+import image20 from '../../../../assets/images/products/20.jpg';
+import image21 from '../../../../assets/images/products/21.jpg';
+import image22 from '../../../../assets/images/products/22.jpg';
 
 export const DEFAULT_IMAGES = [
   {
@@ -128,5 +133,47 @@ export const DEFAULT_IMAGES = [
     thumbnail: image16,
     caption: 'Photo 16',
     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  }
+  },
+  {
+    id: '17',
+    source: image10,
+    thumbnail: image17,
+    caption: 'Photo 17',
+    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  },
+  {
+    id: '18',
+    source: image18,
+    thumbnail: image18,
+    caption: 'Photo 18',
+    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  },
+  {
+    id: '19',
+    source: image19,
+    thumbnail: image19,
+    caption: 'Photo 19',
+    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  },
+  {
+    id: '20',
+    source: image20,
+    thumbnail: image20,
+    caption: 'Photo 20',
+    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  },
+  {
+    id: '21',
+    source: image21,
+    thumbnail: image21,
+    caption: 'Photo 21',
+    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  },
+  {
+    id: '22',
+    source: image22,
+    thumbnail: image22,
+    caption: 'Photo 22',
+    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  },
 ]

@@ -48,11 +48,12 @@ const Dashboard = () => {
         </div>
         <div className="about-banner-text">
           <h2>About Myself</h2>
-          <p>
+          <p>Growing up with an incessant love for aesthetics, I always had a zeal for capturing the designs and miniscule details in all its splendour. This love drove me from pursuing Bachelor's degree in Architecture to Masters in Still Photography. Down the artistic lane, my work also incorporates traces of my inclination towards travelling. Having an edge with my expertise, I am determined to evolve and see myself as one of the eminent photographers.</p>
+          {/* <p>
             Growing up with an artistic side made sure I was going to do something distinctive which led me to pursue bachelors in architecture and in those 5 years the two things which grew up on me the most were photography and travelling.
           <br />
           Soon after graduating I did my masters in Still Photography from AAFT, Noida. Having an edge with my expertise in architecture and photography I am now determined to become a renowned photographer.
-        </p>
+        </p> */}
         </div>
       </section>
       <section id="two">

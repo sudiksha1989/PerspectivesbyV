@@ -14,17 +14,18 @@ const Header = () => (
         </a>
         <h1>
           <strong>I am Vaibhav</strong>, specialising{' '}
-        <br />
+          <br />
          in photographing architecture and{' '}
-        <br />
-        landscape.
+          <br />
+        landscapeasdasd.
       </h1>
       </div>
       <Footer />
     </header>
     <nav className='topnav'>
       <Link to={ROUTES.LANDSCAPE}>Landscape</Link>
-      <Link to={ROUTES.PORTFOLIO}>Portfolio</Link>      
+      <Link to={ROUTES.PRODUCTS}>Products</Link>
+      <Link to={ROUTES.ARCHITECTURE}>Architecture</Link>
       <Link to={ROUTES.HOME}>Home</Link>
     </nav>
   </>

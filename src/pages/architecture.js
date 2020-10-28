@@ -1,15 +1,15 @@
 import React from 'react';
-import Gallery from '../components/Gallery/portfolio';
+import Gallery from '../components/Gallery/architecture';
 import Layout from '../components/layout';
 
-const Portfolio = () => {
+const Architecture = () => {
 
   return (
     <>
     <Layout />
       <div id="main">
         <section id="two">
-          <h2>Portfolio</h2>
+          <h2>Architecture</h2>
           <Gallery />
         </section>
       </div>
@@ -17,4 +17,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Architecture

@@ -3,9 +3,10 @@ export const SITE_DESCRIPTION = 'Site description';
 
 export const ROUTES = {
     HOME: '/',
-    PORTFOLIO: '/portfolio',
+    ARCHITECTURE: '/architecture',
     LANDSCAPE: '/landscape',
-    PRINTS: '/prints'
+    PRINTS: '/prints',
+    PRODUCTS: '/products',
 }
 
 export const LINKS = {
