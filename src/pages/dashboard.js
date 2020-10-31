@@ -27,6 +27,9 @@ const Dashboard = () => {
     ).then(()=>{
       window.alert("Your request sent successfully.")
       reset();
+    }).catch(()=>{
+      window.alert("Oops! Something went wrong.")
+      reset();
     })
   }
 
