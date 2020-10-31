@@ -17,7 +17,7 @@ const Header = () => (
           <br />
          in photographing architecture and{' '}
           <br />
-        landscapeasdasd.
+        landscape.
       </h1>
       </div>
       <Footer />

@@ -15,29 +15,16 @@ import image14 from '../../../../assets/images/architecture/14.jpg';
 import image15 from '../../../../assets/images/architecture/15.jpg';
 import image16 from '../../../../assets/images/architecture/16.jpg';
 import image17 from '../../../../assets/images/architecture/17.jpg';
-import image18 from '../../../../assets/images/architecture/08.jpg';
-import image19 from '../../../../assets/images/architecture/09.jpg';
-import image20 from '../../../../assets/images/architecture/10.jpg';
-import image21 from '../../../../assets/images/architecture/01.jpg';
-import image22 from '../../../../assets/images/architecture/02.jpg';
-import image23 from '../../../../assets/images/architecture/03.jpg';
-import image24 from '../../../../assets/images/architecture/04.jpg';
-import image25 from '../../../../assets/images/architecture/05.jpg';
-import image26 from '../../../../assets/images/architecture/06.jpg';
-import image27 from '../../../../assets/images/architecture/07.jpg';
-import image28 from '../../../../assets/images/architecture/08.jpg';
-import image29 from '../../../../assets/images/architecture/09.jpg';
-import image30 from '../../../../assets/images/architecture/10.jpg';
-import image31 from '../../../../assets/images/architecture/01.jpg';
-import image32 from '../../../../assets/images/architecture/02.jpg';
-import image33 from '../../../../assets/images/architecture/03.jpg';
-import image34 from '../../../../assets/images/architecture/04.jpg';
-import image35 from '../../../../assets/images/architecture/05.jpg';
-import image36 from '../../../../assets/images/architecture/06.jpg';
-import image37 from '../../../../assets/images/architecture/07.jpg';
-import image38 from '../../../../assets/images/architecture/08.jpg';
-import image39 from '../../../../assets/images/architecture/09.jpg';
-import image40 from '../../../../assets/images/architecture/10.jpg';
+import image18 from '../../../../assets/images/architecture/18.jpg';
+import image19 from '../../../../assets/images/architecture/19.jpg';
+import image20 from '../../../../assets/images/architecture/20.jpg';
+import image21 from '../../../../assets/images/architecture/21.jpg';
+import image22 from '../../../../assets/images/architecture/22.jpg';
+import image23 from '../../../../assets/images/architecture/23.jpg';
+import image24 from '../../../../assets/images/architecture/24.jpg';
+import image25 from '../../../../assets/images/architecture/25.jpg';
+import image26 from '../../../../assets/images/architecture/26.jpg';
+import image27 from '../../../../assets/images/architecture/27.jpg';
 
 export const DEFAULT_IMAGES = [
   {
@@ -227,97 +214,6 @@ export const DEFAULT_IMAGES = [
     source: image27,
     thumbnail: image27,
     caption: 'Photo 27',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '28',
-    source: image28,
-    thumbnail: image28,
-    caption: 'Photo 28',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '29',
-    source: image29,
-    thumbnail: image29,
-    caption: 'Photo 29',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '30',
-    source: image20,
-    thumbnail: image20,
-    caption: 'Photo 20',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '31',
-    source: image31,
-    thumbnail: image31,
-    caption: 'Photo 31',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '32',
-    source: image32,
-    thumbnail: image32,
-    caption: 'Photo 32',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '33',
-    source: image33,
-    thumbnail: image33,
-    caption: 'Photo 33',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '34',
-    source: image34,
-    thumbnail: image34,
-    caption: 'Photo 34',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '35',
-    source: image35,
-    thumbnail: image35,
-    caption: 'Photo 35',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '36',
-    source: image36,
-    thumbnail: image36,
-    caption: 'Photo 36',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '37',
-    source: image37,
-    thumbnail: image37,
-    caption: 'Photo 37',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '38',
-    source: image38,
-    thumbnail: image38,
-    caption: 'Photo 38',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '39',
-    source: image39,
-    thumbnail: image39,
-    caption: 'Photo 39',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '40',
-    source: image40,
-    thumbnail: image40,
-    caption: 'Photo 40',
     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
   },
 ]

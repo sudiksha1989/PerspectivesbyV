@@ -8,7 +8,7 @@ const GalleryItem = ({id, source, thumbnail, caption, description, position, tog
         toggleLightbox(position)
     }, [position, toggleLightbox]);
 
-    return (<article key={id} className="work-item">
+    return (<div key={id} className="work-item">
         <a
         className="image fit thumb"
         href={source}
@@ -16,7 +16,7 @@ const GalleryItem = ({id, source, thumbnail, caption, description, position, tog
         >
         <img src={thumbnail} />
         </a>
-    </article>)
+    </div>)
 };
 
 GalleryItem.displayName = 'GalleryItem'

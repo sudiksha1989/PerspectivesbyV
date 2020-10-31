@@ -18,25 +18,15 @@ const Dashboard = () => {
       to_name: 'perspectivesbyv@gmail.com',
       subject: 'contract',
       message_html: data.message + "<br><br>" + data.name + "<br>" + data.email
-    },
-      formData = {
-        service_id: 'gmail',
-        template_id: 'template_9jAoO4Sb',
-        user_id: 'user_rOkY6RYxZwNj0wF5FcDYX',
-        template_params: templateParams
-      };
-    axios({
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      data: formData,
-      url: 'https://api.emailjs.com/api/v1.0/email/send',
+    }
+    emailjs.send(
+      'gmail',
+      'template_9jAoO4Sb',
+      templateParams,
+      'user_rOkY6RYxZwNj0wF5FcDYX'
+    ).then(()=>{
+      window.alert("Your request sent successfully.")
     })
-      .then(function (response) {
-        reset();
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
   }
 
   return (
@@ -61,7 +51,7 @@ const Dashboard = () => {
         <Gallery />
         <ul className="actions">
           <li>
-            <Link to={ROUTES.PORTFOLIO} className="button">Full Portfolio</Link>
+            <Link to={ROUTES.ARCHITECTURE} className="button">Full Portfolio</Link>
           </li>
         </ul>
       </section>

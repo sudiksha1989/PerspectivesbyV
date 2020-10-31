@@ -3,6 +3,7 @@ import image02 from '../../../../assets/images/dashboard/02.jpg';
 import image03 from '../../../../assets/images/dashboard/03.jpg';
 import image04 from '../../../../assets/images/dashboard/04.jpg';
 import image05 from '../../../../assets/images/dashboard/05.jpg';
+import image06 from '../../../../assets/images/dashboard/06.jpg';
 
 export const DEFAULT_IMAGES = [
     {
@@ -40,11 +41,11 @@ export const DEFAULT_IMAGES = [
       caption: 'Photo 5',
       description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
     },
-    // {
-    //   id: '6',
-    //   source: image06,
-    //   thumbnail: image06,
-    //   caption: 'Photo 6',
-    //   description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-    // }
+    {
+      id: '6',
+      source: image06,
+      thumbnail: image06,
+      caption: 'Photo 6',
+      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    }
 ]
