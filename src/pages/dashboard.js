@@ -26,6 +26,7 @@ const Dashboard = () => {
       'user_rOkY6RYxZwNj0wF5FcDYX'
     ).then(()=>{
       window.alert("Your request sent successfully.")
+      reset();
     })
   }
 
